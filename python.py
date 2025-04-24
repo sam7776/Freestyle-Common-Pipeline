@@ -63,8 +63,9 @@ def print_stars():
         "*   *"
     ]
 
-    # Combine all letters row by row
+    # Combine "SONU" and "MESHRAM" row by row
     for row in range(5):
-        print(m[row] + "  " + e[row] + "  " + s[row] + "  " + h[row] + "  " + r[row] + "  " + a[row] + "  " + m[row])
+        print(s[row] + "  " + o[row] + "  " + n[row] + "  " + u[row] + "    " +
+              m[row] + "  " + e[row] + "  " + s[row] + "  " + h[row] + "  " + r[row] + "  " + a[row] + "  " + m[row])
 
 print_stars()
