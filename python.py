@@ -185,11 +185,6 @@ def print_alphabet():
     # Combine all letters row by row
     for row in range(5):
         print(
-            a[row] + "  " + b[row] + "  " + c[row] + "  " + d[row] + "  " + e[row] + "  " +
-            f[row] + "  " + g[row] + "  " + h[row] + "  " + i[row] + "  " + j[row] + "  " +
-            k[row] + "  " + l[row] + "  " + m[row] + "  " + n[row] + "  " + o[row] + "  " +
-            p[row] + "  " + q[row] + "  " + r[row] + "  " + s[row] + "  " + t[row] + "  " +
-            u[row] + "  " + v[row] + "  " + w[row] + "  " + x[row] + "  " + y[row] + "  " + z[row]
-        )
+            a[row] + "  " + n[row] + "  " + k[row] + "  " + i[row] + "  " + t[row] )
 
 print_alphabet()
